@@ -197,6 +197,7 @@ session:
 client
   .init()
   .click("~App")
+  .waitForExist('~Alert Dialogs')
   .click("~Alert Dialogs")
   .back()
   .back()
